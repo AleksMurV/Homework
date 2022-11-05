@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -6,7 +6,7 @@ void main()
 	setlocale(LC_ALL, "Rus");
 	int num;
 	int rev = 0;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> num;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> num;
 	int buf = num;
 	while (buf)
 	{
@@ -18,11 +18,11 @@ void main()
 	cout << rev << endl;
 	if (rev == num)
 	{
-		cout << "Ýòî ÷èñëî ïàëèíäðîì" << endl;
+		cout << "Ð­Ñ‚Ð¾ Ñ‡Ð¸ÑÐ»Ð¾ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
 	}
 	else
 	{
-		cout << "Ýòî îáû÷íîå ÷èñëî" << endl;
+		cout << "Ð­Ñ‚Ð¾ Ð¾Ð±Ñ‹Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾" << endl;
 	}
 
 }

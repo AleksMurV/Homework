@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 
@@ -24,27 +24,27 @@ void main()
 #ifdef SHOOTER_IF
 		if (key == 'w' || key == 'W' || key == UP_ARROW)
 		{
-			cout << "Âïåð¸ä" << endl;
+			cout << "Ð’Ð¿ÐµÑ€Ñ‘Ð´" << endl;
 		}
 		else if (key == 's' || key == 'S' || key == UP_DOWN)
 		{
-			cout << "Íàçàä" << endl;
+			cout << "ÐÐ°Ð·Ð°Ð´" << endl;
 		}
 		else if (key == 'd' || key == 'D' || key == UP_RIGHT)
 		{
-			cout << "Âïðàâî" << endl;
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl;
 		}
 		else if (key == 'a' || key == 'A' || key == UP_LEFT)
 		{
-			cout << "Âëåâî" << endl;
+			cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;
 		}
 		else if (key == ' ')
 		{
-			cout << "Ïðûæîê" << endl;
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl;
 		}
 		else if (key == Enter)
 		{
-			cout << "Îãîíü" << endl;
+			cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;
 		}
 		else
 		{
@@ -54,13 +54,13 @@ void main()
 #ifdef SHOOTER_SW
 		switch (key)
 		{
-		case 'w': case 'W': case UP_ARROW: cout << "Âïåð¸ä" << endl; break;
-		case 's': case 'S': case UP_DOWN:  cout << "Íàçàä" << endl;  break;
-		case 'd': case 'D': case UP_RIGHT: cout << "Âïðàâî" << endl; break;
-		case 'a': case 'A': case UP_LEFT:  cout << "Âëåâî" << endl;  break;
-		case ' ':    cout << "Ïðûæîê" << endl; break;
-		case Enter:  cout << "Îãîíü" << endl;  break;
-		case Escape: cout << "Âûõîä" << endl;  break;
+		case 'w': case 'W': case UP_ARROW: cout << "Ð’Ð¿ÐµÑ€Ñ‘Ð´" << endl; break;
+		case 's': case 'S': case UP_DOWN:  cout << "ÐÐ°Ð·Ð°Ð´" << endl;  break;
+		case 'd': case 'D': case UP_RIGHT: cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾" << endl; break;
+		case 'a': case 'A': case UP_LEFT:  cout << "Ð’Ð»ÐµÐ²Ð¾" << endl;  break;
+		case ' ':    cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº" << endl; break;
+		case Enter:  cout << "ÐžÐ³Ð¾Ð½ÑŒ" << endl;  break;
+		case Escape: cout << "Ð’Ñ‹Ñ…Ð¾Ð´" << endl;  break;
 		case -32:break;
 		default: cout << "Error" << endl;
 		}

@@ -1,13 +1,13 @@
-//#include<iostream>
+п»ї//#include<iostream>
 
 //using namespace std;
 //int main() 
 //{
 	//setlocale(LC_ALL, "Russian"); 
 	//float a; 
-	//cout << "Введите дробное число: "; 
+	//cout << "Р’РІРµРґРёС‚Рµ РґСЂРѕР±РЅРѕРµ С‡РёСЃР»Рѕ: "; 
 	//cin >> a;
-	//cout << int(a) << " грн. " << int(100 * (a - int(a))) << " коп." << endl;
+	//cout << int(a) << " РіСЂРЅ. " << int(100 * (a - int(a))) << " РєРѕРї." << endl;
 	//cin.get(); 
 //}
 #include<iostream> 
@@ -16,10 +16,10 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL "Russian");
-	cout << "Введите дробное число: ";
+	cout << "Р’РІРµРґРёС‚Рµ РґСЂРѕР±РЅРѕРµ С‡РёСЃР»Рѕ: ";
 	double x, y, n;
 	cin >> x; y = modf(x, &n);
-	printf("%d грн. %d коп.", (int)n, (int)(y * 100));
+	printf("%d РіСЂРЅ. %d РєРѕРї.", (int)n, (int)(y * 100));
 	getchar();
 	return 0;
 }

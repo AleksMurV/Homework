@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 using std::cin;
 using std::cout;
@@ -16,8 +16,8 @@ void main()
 	setlocale(LC_ALL, "Rus");
 #ifdef FACTORIAL
 	int n;
-	double f = 1; // Факториал
-	cout << "Введите число: "; cin >> n;
+	double f = 1; // Р¤Р°РєС‚РѕСЂРёР°Р»
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: "; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		cout << i << "! = ";
@@ -29,11 +29,11 @@ void main()
 #endif // FACTORIAL
 
 #ifdef POWER
-	double a;       //Основание степени - это число котторое умножается само на себя
-	int n;          //Показатель степени
-	double N = 1;   //Степень
-	cout << "Введите основание степени: "; cin >> a;
-	cout << "Введите показатель степени: "; cin >> n;
+	double a;       //РћСЃРЅРѕРІР°РЅРёРµ СЃС‚РµРїРµРЅРё - СЌС‚Рѕ С‡РёСЃР»Рѕ РєРѕС‚С‚РѕСЂРѕРµ СѓРјРЅРѕР¶Р°РµС‚СЃСЏ СЃР°РјРѕ РЅР° СЃРµР±СЏ
+	int n;          //РџРѕРєР°Р·Р°С‚РµР»СЊ СЃС‚РµРїРµРЅРё
+	double N = 1;   //РЎС‚РµРїРµРЅСЊ
+	cout << "Р’РІРµРґРёС‚Рµ РѕСЃРЅРѕРІР°РЅРёРµ СЃС‚РµРїРµРЅРё: "; cin >> a;
+	cout << "Р’РІРµРґРёС‚Рµ РїРѕРєР°Р·Р°С‚РµР»СЊ СЃС‚РµРїРµРЅРё: "; cin >> n;
 	if (n < 0)
 	{
 		a = 1 / a;
@@ -47,7 +47,7 @@ void main()
 #endif // POWER
 
 #ifdef ASCII
-	cout << "Таблица ASCII - символов:\n";
+	cout << "РўР°Р±Р»РёС†Р° ASCII - СЃРёРјРІРѕР»РѕРІ:\n";
 	setlocale(LC_ALL, "Rus");
 	for (int i = 0; i < 256; i++)
 	{
@@ -60,7 +60,7 @@ void main()
 
 #ifdef FIBONACHI_PREDEL
 	int n;
-	cout << "Введите предельное число: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ РїСЂРµРґРµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> n;
 	for (int a = 0, b = 1, c = a + b; a < n; a = b, b = c, c = a + b)
 	{
 		cout << a << "\t";
@@ -85,11 +85,11 @@ void main()
 
 #ifdef PREDEL
 	int n;
-	cout << "Введите предельное число: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ РїСЂРµРґРµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ: "; cin >> n;
 	for (int i = 2; i < n; i++)
 	{
-		bool simple = true; //предпологаем, что число постое,
-		//но нужно это проверить:
+		bool simple = true; //РїСЂРµРґРїРѕР»РѕРіР°РµРј, С‡С‚Рѕ С‡РёСЃР»Рѕ РїРѕСЃС‚РѕРµ,
+		//РЅРѕ РЅСѓР¶РЅРѕ СЌС‚Рѕ РїСЂРѕРІРµСЂРёС‚СЊ:
 		for (int j = 2; j < i; j++)
 		{
 			if (i % j == 0)
